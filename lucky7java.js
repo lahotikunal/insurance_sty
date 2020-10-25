@@ -152,13 +152,13 @@ button.addEventListener('click',function()
     
               if (window.confirm('If you click "ok" you would be redirected  ')) 
                     {
-                                      window.location.href='https://codepen.io/kunal28/pen/dyXYpYz';
+                                      window.location.href='https://lahotikunal.github.io/withinsurance45/';
                     }
       }
       else  {
               if (window.confirm('If you click "ok" you would be redirected  ')) 
                     {
-                    window.location.href='https://codepen.io/pen/';
+                    window.location.href='https://lahotikunal.github.io/withoutinsurance45/.';
                     };
         
             }
