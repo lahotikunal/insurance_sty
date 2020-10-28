@@ -97,9 +97,9 @@ function myFunction()
 
 //rules
 rules.addEventListener('click', function() {
-  document.getElementById('text-area').innerHTML = "Put the bid the value of bid is fixed 15, and initial sum of 90 is given , select one of <7 , =7 or >7 and, roll the dice.If you select one of <7 and the sum of dice more than 7 ,  else if you choice option more than >7 and the sum of dice is more than 7 the initial value is  "+"<br>"+"added with twice the bidding value but the the choice is not same as the dice sum the bidding value is removed from the initial sum.The other choice is to select 7 and sum of dice is  7 you get 3 times the bidding value. If you select 7 and the value is anything other than 7 the bidding value is removed from the initial sum. "+"<br>"+"You will be given a option of insurance at certian point, if you choose to select insurance your loss "+"<br>"+"<br>"+"will be compensated(no money will removed in case of "+"<br>"+"loss) but a insurance premium will be removed from "+"<br>"+"your total amount at each roll , but if you win you "+"<br>"+"get the winning amount minus the premium amount "+"<br>"+"added to total sum "+"<br>"+"Have Fun!";
-  document.getElementById('rules').style.display = 'none';
-
+  //document.getElementById('text-area').innerHTML = "Put the bid the value of bid is fixed 15, and initial sum of 90 is given , select one of <7 , =7 or >7 and, roll the dice.If you select one of <7 and the sum of dice more than 7 ,  else if you choice option more than >7 and the sum of dice is more than 7 the initial value is  "+"<br>"+"added with twice the bidding value but the the choice is not same as the dice sum the bidding value is removed from the initial sum.The other choice is to select 7 and sum of dice is  7 you get 3 times the bidding value. If you select 7 and the value is anything other than 7 the bidding value is removed from the initial sum. "+"<br>"+"You will be given a option of insurance at certian point, if you choose to select insurance your loss "+"<br>"+"<br>"+"will be compensated(no money will removed in case of "+"<br>"+"loss) but a insurance premium will be removed from "+"<br>"+"your total amount at each roll , but if you win you "+"<br>"+"get the winning amount minus the premium amount "+"<br>"+"added to total sum "+"<br>"+"Have Fun!";
+  //document.getElementById('rules').style.display = 'none';
+    {location.href = "https://lahotikunal.github.io/introduction_page/";}
 });
 
 next_game.addEventListener('click',function(){
