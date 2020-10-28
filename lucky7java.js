@@ -145,20 +145,20 @@ button.addEventListener('click',function()
              potValue -= bidValue;
            }
         }
-  if(potValue<=30){
+  if(potValue==30){
     
       pass=prompt('Do you need insurance y/n ');
       if(pass=='y'){
     
               if (window.confirm('If you click "ok" you would be redirected  ')) 
                     {
-                                      window.location.href='https://lahotikunal.github.io/withinsurance45/';
+                                      window.location.href='https://lahotikunal.github.io/with60/';
                     }
       }
       else  {
               if (window.confirm('If you click "ok" you would be redirected  ')) 
                     {
-                    window.location.href='https://lahotikunal.github.io/withoutinsurance45/.';
+                    window.location.href='https://lahotikunal.github.io/without60/';
                     };
         
             }
