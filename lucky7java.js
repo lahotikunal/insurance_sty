@@ -145,7 +145,7 @@ button.addEventListener('click',function()
              potValue -= bidValue;
            }
         }
-  if(potValue==30){
+  if(potValue<=45){
     
       pass=prompt('Do you need insurance y/n ');
       if(pass=='y'){
