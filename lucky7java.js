@@ -142,7 +142,7 @@ button.addEventListener('click',function()
         }
   if(potValue<=45){
     
-      pass=prompt('The insurnce contract is of worth 60 units , Do you need insurance y/n ');
+      pass=prompt('The insurnce contract is of worth 20 Lakhs , Do you need insurance y/n ');
       if(pass=='y'){
     
               if (window.confirm('If you click "ok" you would be redirected  ')) 
